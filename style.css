@@ -1,0 +1,40 @@
+*{
+    font-size: 40px;
+}
+#question {
+    background-color: #212121;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#answers {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.answer {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+#yes {
+    background-color: rgb(36, 190, 75);
+
+}
+
+#no {
+    background-color: rgb(168, 50, 50);
+}
+.reverse {
+    flex-direction: row-reverse;
+}
